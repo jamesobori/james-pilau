@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 30px;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, o.2);
+    
+} 
+ul{
+    list-style: none;
+}
+.nav-links ul{
+    display: flex;
+    gap: 28px;
+}
+header h2 span{
+    color: orange;
+}
+.navbar-links{
+    color: orange;
+}
+.home{
+    background-image: url(beef-pilau-recipe-main-photo.jpg);
+    background-position: left; 
+    height: 90vh;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+.home-buttons .order-1:hover{
+    background: white;
+}
+.btn-1{
+    background-color: orange;
+    padding: 10px;
+}
+.btn-1:hover{
+    background-color: white;
+    color: orange;
+    border: none;
+}
+.btn-2{
+    background-color:orange;
+    padding: 10px;
+    border: none;
+}
+.btn-2:hover{
+    background-color: white;
+    color: orange;
+    border: none;
+}
+.homepage-cont h2{
+    padding-top: 15%;
+    font-size: 5rem;
+}
+main>.about-content{
+    display: flex;
+    /* flex-direction */
+    justify-content: space-between;
+    margin: 8%;
+    gap: 5%;
+}
+main>section>.ABOUT{
+    padding-top: 2%;
+}
+main>section>.ABOUT>button{
+background-color: orange;
+}
+.ABOUT button{
+    padding: 16px;
+    margin-top: 20px
+}
+main>section>.ABOUT>button:hover{
+    background:white;
+}
+.our-services{
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+main>section>.about-our-services{
+    display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 3rem;
+  align-items: center; 
+  background-color: #eee;
+  border-radius: 58px;
+}
+
+.Free-Delivery{
+    background-color: orange;
+}
